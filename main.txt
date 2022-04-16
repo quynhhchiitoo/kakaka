@@ -1,1 +1,9 @@
-u lam xong chua
+int numelements(Set s){
+    DNode* cur=s.pHead;
+    int num=0;
+    while(cur!=nullptr){
+        cur=cur->pN;
+        num+=1;
+    }
+    return num;
+}
